@@ -1,0 +1,23 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HMasataka/article.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HMasataka/article/issues"
+  },
+  "homepage": "https://github.com/HMasataka/article#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.110"
+  }
+}
