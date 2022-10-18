@@ -59,7 +59,7 @@ docker-compose run cli
 
 以下のような画面が出れば成功
 
-![mysql client image](/images/react_checkbox.png)
+![mysql client image](/images/mysql.png)
 
 ## Go言語からの接続
 
