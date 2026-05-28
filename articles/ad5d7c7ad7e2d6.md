@@ -2,7 +2,7 @@
 title: "docker-composeでmysql環境を構築する"
 emoji: "🐙"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Docker","docker-compose","mysql","DB"]
+topics: ["Docker", "docker-compose", "mysql", "DB"]
 published: true
 ---
 
@@ -36,10 +36,10 @@ networks:
     driver: bridge
 ```
 
-* `services.mysql.environment`配下でmysqlの設定を行っている。
-  * ここではrootのパスワードを`mysql`、デフォルトのDB名を`db`、ユーザー名を`user`、パスワードを`password`に設定しているので適宜修正する。ここで設定した情報を利用してmysqlクライアントからMySQLへ接続する。
-* `services.mysql.restart`を`always`に設定することでPCを再起動したとき等もMySQLを起動したままに出来る
-* `networks`はmysqlクライアントから接続出来るようにするための設定
+- `services.mysql.environment`配下でmysqlの設定を行っている。
+  - ここではrootのパスワードを`mysql`、デフォルトのDB名を`db`、ユーザー名を`user`、パスワードを`password`に設定しているので適宜修正する。ここで設定した情報を利用してmysqlクライアントからMySQLへ接続する。
+- `services.mysql.restart`を`always`に設定することでPCを再起動したとき等もMySQLを起動したままに出来る
+- `networks`はmysqlクライアントから接続出来るようにするための設定
 
 ## MySQLの起動
 

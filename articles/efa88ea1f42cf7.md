@@ -2,7 +2,7 @@
 title: "sqlboilerで自動生成するGoの型を任意の物に起きかえる"
 emoji: "🔥"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["db","mysql","sqlboiler"]
+topics: ["db", "mysql", "sqlboiler"]
 published: true
 ---
 
